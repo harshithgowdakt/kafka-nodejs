@@ -4,6 +4,8 @@
   "description": "kafka nodejs exmaple",
   "main": "index.js",
   "scripts": {
+    "start:admin": "node dist/KafkaAdmin.js",
+    "build": "./node_modules/.bin/tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,5 +16,9 @@
   "license": "MIT",
   "dependencies": {
     "kafkajs": "^1.15.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
   }
 }
