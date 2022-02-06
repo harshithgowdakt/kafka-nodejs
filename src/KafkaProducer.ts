@@ -1,6 +1,6 @@
 import { Kafka, Producer } from "kafkajs";
 
-class KafkaAdmin {
+class KafkaProducer {
     private kafka: Kafka;
     private producer: Producer;
 
@@ -50,7 +50,7 @@ class KafkaAdmin {
 }
 
 (async function () {
-    let client = new KafkaAdmin();
+    let client = new KafkaProducer();
     await client.send();
     await client.sendBatch();
 })()
