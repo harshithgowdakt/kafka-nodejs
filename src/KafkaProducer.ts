@@ -9,7 +9,7 @@ class KafkaProducer {
             clientId: "kafka-nodejs",
             brokers: ["localhost:29092"]
         });
-        this.producer = this.kafka.producer();
+        this.producer = this.Producer;
     }
 
     get Producer(): Producer {
