@@ -1,0 +1,18 @@
+{
+  "name": "kafka-nodejs",
+  "version": "1.0.0",
+  "description": "kafka nodejs exmaple",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "kafka"
+  ],
+  "author": "Harshith Gowda",
+  "license": "MIT",
+  "dependencies": {
+    "kafkajs": "^1.15.0"
+  }
+}
